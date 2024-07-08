@@ -18,7 +18,7 @@ export default function Cart() {
 
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
-    let response = await fetch("http://localhost:3000/api/OrderData", {
+    let response = await fetch("https://zwigato-4ipy.onrender.com/OrderData", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

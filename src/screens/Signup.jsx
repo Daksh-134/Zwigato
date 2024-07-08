@@ -9,7 +9,7 @@ export default function signup() {
 // On change event listener as value remains blank(static) without it.
   const handleSubmit = async(e)=>{
       e.preventDefault();
-      const response= await fetch("http://localhost:3000/api/CreateUser",{
+      const response= await fetch("https://zwigato-4ipy.onrender.com/CreateUser",{
         method:'POST',
         headers:{
           'Content-Type':'application/json'

@@ -7,7 +7,7 @@ export default function MyOrder() {
     const [orderData, setorderData] = useState({})
     const fetchMyOrder = async () => {
         console.log(localStorage.getItem('userEmail'))
-        await fetch("http://localhost:3000/api/myOrderData", {
+        await fetch("https://zwigato-4ipy.onrender.com/myOrderData", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

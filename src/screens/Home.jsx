@@ -8,7 +8,7 @@ export default function Home() {
   const [foodItem, setFoodItem] = useState([]);
   const [search, setSearch] = useState('');
   const loadData = async () => {
-    let response = await fetch("http://localhost:3000/api/DisplayData", {
+    let response = await fetch("https://zwigato-4ipy.onrender.com/DisplayData", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

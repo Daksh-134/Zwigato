@@ -8,7 +8,7 @@ export default function Login() {
   // Redirect to Home
   const handleSubmit = async(e)=>{
       e.preventDefault();
-      const response= await fetch("http://localhost:3000/api/loginUser",{
+      const response= await fetch("https://zwigato-4ipy.onrender.com/loginUser",{
         method:'POST',
         headers:{
           'Content-Type':'application/json'
