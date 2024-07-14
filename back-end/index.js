@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 // Cross Origin Resource Sharing
 app.use(cors({
-  origin: 'https://zwigato-nine.vercel.app'
+  origin: 'https://menumate123.vercel.app/'
 }));
 
 app.use(express.json())
